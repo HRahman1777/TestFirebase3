@@ -49,9 +49,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //getting the views
-        textViewStatus = (TextView) findViewById(R.id.textViewStatus);
-        editTextFilename = (EditText) findViewById(R.id.editTextFileName);
-        progressBar = (ProgressBar) findViewById(R.id.progressbar);
+        textViewStatus = findViewById(R.id.textViewStatus);
+        editTextFilename = findViewById(R.id.editTextFileName);
+        progressBar = findViewById(R.id.progressbar);
         uploadBtn = findViewById(R.id.buttonUploadFile);
         textViewUpld = findViewById(R.id.textViewUploads);
         buttonS2 = findViewById(R.id.btnn2);
